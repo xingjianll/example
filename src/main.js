@@ -316,13 +316,13 @@ function render() {
 
         <!-- Resize handle + Right panel content -->
         <div class="resize-handle" id="resize-handle"></div>
-        <div class="right-panel-content" id="panel-editor">${editorHTML}</div>
+        <div class="right-panel-content hidden" id="panel-editor">${editorHTML}</div>
         <div class="right-panel-content hidden" id="panel-browser">${browserHTML}</div>
         <div class="right-panel-content hidden" id="panel-video">${videoEditorHTML}</div>
 
         <!-- Icon rail (always visible) -->
         <div class="icon-rail">
-          <button class="icon-rail-btn active" data-panel="panel-editor">${ICONS.filePage}</button>
+          <button class="icon-rail-btn" data-panel="panel-editor">${ICONS.filePage}</button>
           <button class="icon-rail-btn" data-panel="panel-browser">${ICONS.globe}</button>
           <button class="icon-rail-btn" data-panel="panel-video">${ICONS.grid}</button>
         </div>
